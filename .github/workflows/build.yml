@@ -35,12 +35,11 @@ jobs:
         run: |
           names=$(gh release view -R official-stockfish/Stockfish --json assets -q '.assets[].name')
           echo "::warning title=sf-assets::$(echo $names | tr '\n' ' ')"
-          f=$(echo "$names" | tr ' ' '\n' | grep -E '^stockfish-android-armv8\.(tar|zip)$' | head -1)
-          [ -z "$f" ] && f=$(echo "$names" | tr ' ' '\n' | grep -E '^stockfish-android-armv8' | head -1)
+          f=$(echo "$names" | grep -E '^stockfish-android-(arm64|armv8)' | grep -v dotprod | head -1)
           echo "asset: $f"
           mkdir -p sf && gh release download -R official-stockfish/Stockfish -p "$f" -D sf
           cd sf && { tar -xf "$f" 2>/dev/null || unzip -q "$f"; } && cd ..
-          bin=$(find sf -type f -name 'stockfish-android-armv8*' ! -name '*.tar' ! -name '*.zip' | head -1)
+          bin=$(find sf -type f -name 'stockfish*' ! -name '*.tar*' ! -name '*.zip' ! -name '*.txt' ! -name '*.md' -size +1M | head -1)
           echo "engine: $bin"; ls -la "$bin"
           mkdir -p android/app/src/main/jniLibs/arm64-v8a
           cp "$bin" android/app/src/main/jniLibs/arm64-v8a/libstockfish.so
@@ -92,12 +91,11 @@ jobs:
         shell: bash
         run: |
           names=$(gh release view -R official-stockfish/Stockfish --json assets -q '.assets[].name')
-          f=$(echo "$names" | grep -E '^stockfish-windows-x86-64-avx2\.(zip|tar)$' | head -1)
-          [ -z "$f" ] && f=$(echo "$names" | grep -E '^stockfish-windows-x86-64\.(zip|tar)$' | head -1)
+          f=$(echo "$names" | grep -E '^stockfish-windows-x86-64' | head -1)
           echo "asset: $f"
           mkdir -p sf && gh release download -R official-stockfish/Stockfish -p "$f" -D sf
           cd sf && { unzip -q "$f" 2>/dev/null || tar -xf "$f"; } && cd ..
-          bin=$(find sf -type f -name 'stockfish*.exe' | head -1)
+          bin=$(find sf -type f -name 'stockfish*.exe' -size +1M | head -1)
           echo "engine: $bin"
           cp "$bin" build/windows/x64/runner/Release/stockfish.exe
           lic=$(find sf -iname 'copying*' | head -1); [ -n "$lic" ] && cp "$lic" build/windows/x64/runner/Release/Stockfish-LICENSE.txt || true
