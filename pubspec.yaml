@@ -1,0 +1,35 @@
+name: winter_chess
+description: Шахматы — приложение семейства Winter Hub.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.4
+  chess: ^0.8.1
+  flutter_svg: ^2.0.10
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/pieces/
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_background: "#0A1020"
+  adaptive_icon_foreground: "assets/icon/icon_fg.png"
+  min_sdk_android: 21
+  windows:
+    generate: true
+    image_path: "assets/icon/icon.png"
+    icon_size: 256
