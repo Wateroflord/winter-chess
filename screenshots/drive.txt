@@ -1,0 +1,261 @@
+Resolving dependencies...
+Downloading packages...
+  cli_util 0.4.2 (0.6.0 available)
+  code_assets 1.2.1 (2.1.0 available)
+  hooks 2.0.2 (2.2.0 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.18.3 (1.19.0 available)
+  objective_c 9.5.0 (9.6.2 available)
+  petitparser 7.0.2 (7.1.0 available)
+  record_use 0.6.0 (1.1.1 available)
+  test_api 0.7.12 (0.7.15 available)
+  vector_math 2.4.0 (2.4.4 available)
+  xml 7.0.1 (7.1.0 available)
+Got dependencies!
+11 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Running Gradle task 'assembleDebug'...                          
+Loading package information...                                                  
+Loading local repository...                                                     
+[                                       ] 3% Loading local repository...        
+[                                       ] 3% Fetch remote repository...         
+[=                                      ] 3% Fetch remote repository...         
+[=                                      ] 4% Fetch remote repository...         
+[=                                      ] 5% Fetch remote repository...         
+[==                                     ] 5% Fetch remote repository...         
+[==                                     ] 6% Fetch remote repository...         
+[==                                     ] 7% Fetch remote repository...         
+[==                                     ] 7% Computing updates...               
+[===                                    ] 8% Computing updates...               
+[===                                    ] 10% Computing updates...              
+[===                                    ] 10% Installing NDK (Side by side) 28.2
+[===                                    ] 10% Downloading android-ndk-r28c-linux
+[====                                   ] 10% Downloading android-ndk-r28c-linux
+[====                                   ] 11% Downloading android-ndk-r28c-linux
+[====                                   ] 12% Downloading android-ndk-r28c-linux
+[=====                                  ] 13% Downloading android-ndk-r28c-linux
+[=====                                  ] 14% Downloading android-ndk-r28c-linux
+[=====                                  ] 15% Downloading android-ndk-r28c-linux
+[======                                 ] 15% Downloading android-ndk-r28c-linux
+[======                                 ] 16% Downloading android-ndk-r28c-linux
+[======                                 ] 17% Downloading android-ndk-r28c-linux
+[=======                                ] 18% Downloading android-ndk-r28c-linux
+[=======                                ] 19% Downloading android-ndk-r28c-linux
+[=======                                ] 20% Downloading android-ndk-r28c-linux
+[========                               ] 20% Downloading android-ndk-r28c-linux
+[========                               ] 21% Downloading android-ndk-r28c-linux
+[========                               ] 22% Downloading android-ndk-r28c-linux
+[=========                              ] 23% Downloading android-ndk-r28c-linux
+[=========                              ] 24% Downloading android-ndk-r28c-linux
+[=========                              ] 25% Downloading android-ndk-r28c-linux
+[==========                             ] 25% Downloading android-ndk-r28c-linux
+[==========                             ] 26% Downloading android-ndk-r28c-linux
+[==========                             ] 27% Downloading android-ndk-r28c-linux
+[===========                            ] 28% Downloading android-ndk-r28c-linux
+[===========                            ] 29% Downloading android-ndk-r28c-linux
+[===========                            ] 30% Downloading android-ndk-r28c-linux
+[============                           ] 30% Downloading android-ndk-r28c-linux
+[============                           ] 31% Downloading android-ndk-r28c-linux
+[============                           ] 32% Downloading android-ndk-r28c-linux
+[============                           ] 33% Downloading android-ndk-r28c-linux
+[============                           ] 33% Unzipping...                      
+[============                           ] 33% Unzipping... android-ndk-r28c/    
+[============                           ] 33% Unzipping... android-ndk-r28c/READ
+[=============                          ] 33% Unzipping... android-ndk-r28c/READ
+[=============                          ] 33% Unzipping... android-ndk-r28c/meta
+[=============                          ] 33% Unzipping... android-ndk-r28c/shad
+[=============                          ] 33% Unzipping... android-ndk-r28c/ndk-
+[=============                          ] 33% Unzipping... android-ndk-r28c/wrap
+[=============                          ] 33% Unzipping... android-ndk-r28c/ndk-
+[=============                          ] 33% Unzipping... android-ndk-r28c/tool
+[=============                          ] 34% Unzipping... android-ndk-r28c/tool
+[=============                          ] 35% Unzipping... android-ndk-r28c/tool
+[==============                         ] 35% Unzipping... android-ndk-r28c/tool
+[==============                         ] 36% Unzipping... android-ndk-r28c/tool
+[==============                         ] 37% Unzipping... android-ndk-r28c/tool
+[===============                        ] 38% Unzipping... android-ndk-r28c/tool
+[===============                        ] 39% Unzipping... android-ndk-r28c/tool
+[===============                        ] 40% Unzipping... android-ndk-r28c/tool
+[================                       ] 40% Unzipping... android-ndk-r28c/tool
+[================                       ] 41% Unzipping... android-ndk-r28c/tool
+[================                       ] 42% Unzipping... android-ndk-r28c/tool
+[=================                      ] 43% Unzipping... android-ndk-r28c/tool
+[=================                      ] 44% Unzipping... android-ndk-r28c/tool
+[=================                      ] 45% Unzipping... android-ndk-r28c/tool
+[==================                     ] 45% Unzipping... android-ndk-r28c/tool
+[==================                     ] 46% Unzipping... android-ndk-r28c/tool
+[==================                     ] 47% Unzipping... android-ndk-r28c/tool
+[===================                    ] 48% Unzipping... android-ndk-r28c/tool
+[===================                    ] 49% Unzipping... android-ndk-r28c/tool
+[===================                    ] 50% Unzipping... android-ndk-r28c/tool
+[====================                   ] 50% Unzipping... android-ndk-r28c/tool
+[====================                   ] 51% Unzipping... android-ndk-r28c/tool
+[====================                   ] 52% Unzipping... android-ndk-r28c/tool
+[=====================                  ] 53% Unzipping... android-ndk-r28c/tool
+[=====================                  ] 54% Unzipping... android-ndk-r28c/tool
+[=====================                  ] 54% Unzipping... android-ndk-r28c/buil
+[=====================                  ] 54% Unzipping... android-ndk-r28c/sour
+[=====================                  ] 54% Unzipping... android-ndk-r28c/NOTI
+[=====================                  ] 54% Unzipping... android-ndk-r28c/ndk-
+[=====================                  ] 54% Unzipping... android-ndk-r28c/NOTI
+[=====================                  ] 54% Unzipping... android-ndk-r28c/pyth
+[=====================                  ] 54% Unzipping... android-ndk-r28c/preb
+[=====================                  ] 54% Unzipping... android-ndk-r28c/ndk-
+[=====================                  ] 54% Unzipping... android-ndk-r28c/sour
+[=====================                  ] 54% Unzipping... android-ndk-r28c/simp
+[=====================                  ] 55% Unzipping... android-ndk-r28c/simp
+[=====================                  ] 55% Unzipping... android-ndk-r28c/CHAN
+[=======================================] 100% Unzipping... android-ndk-r28c/CHA
+
+Checking the license for package CMake 3.22.1 in /usr/local/lib/android/sdk/licenses
+License for package CMake 3.22.1 accepted.
+Preparing "Install CMake 3.22.1 v.3.22.1".
+"Install CMake 3.22.1 v.3.22.1" ready.
+Installing CMake 3.22.1 in /usr/local/lib/android/sdk/cmake/3.22.1
+"Install CMake 3.22.1 v.3.22.1" complete.
+"Install CMake 3.22.1 v.3.22.1" finished.
+Running Gradle task 'assembleDebug'...                            242.8s
+✓ Built build/app/outputs/flutter-apk/app-debug.apk
+Installing build/app/outputs/flutter-apk/app-debug.apk...          615ms
+I/Choreographer( 5879): Skipped 42 frames!  The application may be doing too much work on its main thread.
+D/FlutterJNI( 5879): Sending viewport metrics to the engine.
+VMServiceFlutterDriver: Connecting to Flutter application at http://127.0.0.1:40897/KvuPxqjVsEk=/
+VMServiceFlutterDriver: Isolate found with number: 8692112624062603
+VMServiceFlutterDriver: Isolate 8692112624062603 is runnable.
+VMServiceFlutterDriver: Isolate is paused at start.
+VMServiceFlutterDriver: Attempting to resume isolate
+I/flutter ( 5879): 00:00 +0: chess
+VMServiceFlutterDriver: Connected to Flutter application.
+D/ProfileInstaller( 5879): Installing profile for com.winterhub.winter_chess
+D/CompatibilityChangeReporter( 5879): Compat change id reported: 236825255; UID 10192; state: ENABLED
+VMServiceFlutterDriver: request_data message is taking a long time to complete...
+D/EGL_emulation( 5879): app_time_stats: avg=3225.64ms min=1919.61ms max=4531.68ms count=2
+W/WindowOnBackDispatcher( 5879): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5879): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5879): app_time_stats: avg=578.63ms min=17.66ms max=1377.46ms count=5
+D/EGL_emulation( 5879): app_time_stats: avg=1516.81ms min=1516.81ms max=1516.81ms count=1
+D/EGL_emulation( 5879): app_time_stats: avg=1472.80ms min=777.16ms max=2168.44ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=309.98ms min=80.88ms max=699.39ms count=4
+D/EGL_emulation( 5879): app_time_stats: avg=1018.95ms min=1018.95ms max=1018.95ms count=1
+D/EGL_emulation( 5879): app_time_stats: avg=388.96ms min=19.99ms max=1515.82ms count=5
+D/EGL_emulation( 5879): app_time_stats: avg=4199.29ms min=4199.29ms max=4199.29ms count=1
+D/EGL_emulation( 5879): app_time_stats: avg=236.52ms min=32.94ms max=514.75ms count=5
+D/EGL_emulation( 5879): app_time_stats: avg=516.67ms min=515.60ms max=517.74ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.87ms min=516.44ms max=517.29ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=517.23ms min=515.15ms max=519.30ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.20ms min=515.13ms max=517.27ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.69ms min=516.64ms max=516.74ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.45ms min=515.07ms max=517.83ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.52ms min=515.64ms max=517.40ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=517.20ms min=516.47ms max=517.94ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=515.34ms min=515.24ms max=515.44ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=1017.03ms min=517.99ms max=1516.07ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=12520.52ms min=12520.52ms max=12520.52ms count=1
+D/EGL_emulation( 5879): app_time_stats: avg=131.57ms min=25.03ms max=320.36ms count=8
+D/EGL_emulation( 5879): app_time_stats: avg=515.21ms min=514.64ms max=515.78ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.40ms min=515.46ms max=517.34ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.74ms min=516.74ms max=516.75ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.84ms min=516.58ms max=517.09ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.37ms min=515.70ms max=517.04ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.74ms min=516.69ms max=516.79ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.45ms min=516.18ms max=516.71ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=523.36ms min=521.26ms max=525.47ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=510.27ms min=504.23ms max=516.32ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=518.25ms min=516.52ms max=519.98ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=212.46ms min=42.69ms max=515.66ms count=5
+D/EGL_emulation( 5879): app_time_stats: avg=517.40ms min=516.18ms max=518.61ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.86ms min=515.81ms max=517.91ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=515.92ms min=514.62ms max=517.22ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.33ms min=515.09ms max=517.58ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.96ms min=516.67ms max=517.25ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=1515.33ms min=1515.33ms max=1515.33ms count=1
+D/EGL_emulation( 5879): app_time_stats: avg=19131.25ms min=19131.25ms max=19131.25ms count=1
+D/EGL_emulation( 5879): app_time_stats: avg=429.54ms min=22.68ms max=1425.39ms count=4
+D/EGL_emulation( 5879): app_time_stats: avg=1719.42ms min=1719.42ms max=1719.42ms count=1
+D/EGL_emulation( 5879): app_time_stats: avg=307.58ms min=42.18ms max=884.17ms count=4
+D/EGL_emulation( 5879): app_time_stats: avg=260.51ms min=38.62ms max=880.21ms count=4
+D/EGL_emulation( 5879): app_time_stats: avg=2016.00ms min=2016.00ms max=2016.00ms count=1
+D/EGL_emulation( 5879): app_time_stats: avg=1519.54ms min=1519.54ms max=1519.54ms count=1
+D/EGL_emulation( 5879): app_time_stats: avg=5804.82ms min=5804.82ms max=5804.82ms count=1
+D/EGL_emulation( 5879): app_time_stats: avg=329.05ms min=40.41ms max=917.28ms count=4
+D/EGL_emulation( 5879): app_time_stats: avg=512.79ms min=512.57ms max=513.02ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.48ms min=515.60ms max=517.36ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=517.78ms min=516.57ms max=518.99ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=515.74ms min=515.11ms max=516.37ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.71ms min=515.92ms max=517.50ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.33ms min=516.27ms max=516.38ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.75ms min=515.34ms max=518.16ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.48ms min=514.96ms max=518.01ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.09ms min=515.61ms max=516.57ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=517.25ms min=516.09ms max=518.40ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=515.77ms min=514.24ms max=517.29ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=519.96ms min=517.41ms max=522.52ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=513.80ms min=510.52ms max=517.07ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.44ms min=516.07ms max=516.80ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=517.01ms min=516.69ms max=517.33ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.00ms min=515.84ms max=516.16ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.38ms min=515.72ms max=517.03ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.94ms min=515.75ms max=518.14ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=517.20ms min=516.69ms max=517.72ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=518.15ms min=515.94ms max=520.36ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=1513.60ms min=1513.60ms max=1513.60ms count=1
+D/EGL_emulation( 5879): app_time_stats: avg=23496.75ms min=23496.75ms max=23496.75ms count=1
+D/EGL_emulation( 5879): app_time_stats: avg=1261.35ms min=1261.35ms max=1261.35ms count=1
+W/WindowOnBackDispatcher( 5879): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5879): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5879): app_time_stats: avg=262.56ms min=40.24ms max=833.21ms count=4
+D/EGL_emulation( 5879): app_time_stats: avg=525.58ms min=516.91ms max=534.25ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.54ms min=515.38ms max=517.71ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.45ms min=515.54ms max=517.36ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=1515.96ms min=1515.96ms max=1515.96ms count=1
+D/EGL_emulation( 5879): app_time_stats: avg=6940.77ms min=6940.77ms max=6940.77ms count=1
+D/EGL_emulation( 5879): app_time_stats: avg=305.28ms min=29.00ms max=934.72ms count=4
+D/EGL_emulation( 5879): app_time_stats: avg=514.51ms min=514.23ms max=514.80ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.25ms min=515.91ms max=516.59ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.78ms min=516.50ms max=517.06ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.45ms min=514.28ms max=518.62ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=516.62ms min=516.22ms max=517.01ms count=2
+D/EGL_emulation( 5879): app_time_stats: avg=1516.45ms min=1516.45ms max=1516.45ms count=1
+D/EGL_emulation( 5879): app_time_stats: avg=7902.20ms min=7902.20ms max=7902.20ms count=1
+D/EGL_emulation( 5879): app_time_stats: avg=1216.32ms min=1216.32ms max=1216.32ms count=1
+I/flutter ( 5879): 
+I/flutter ( 5879): Warning: A call to tap() with finder "Found 1 widget with text "Уроки" (ignoring all but first): [
+I/flutter ( 5879):   Text("Уроки", inherit: true, color: Color(alpha: 1.0000, red: 0.9176, green: 0.9490, blue: 1.0000, colorSpace: ColorSpace.sRGB), size: 17.0, weight: 700, dependencies: [DefaultSelectionStyle, DefaultTextStyle, MediaQuery]),
+I/flutter ( 5879): ]" derived an Offset (Offset(-5.1, 416.8)) that would not hit test on the specified widget.
+I/flutter ( 5879): Maybe the widget is actually off-screen, or another widget is obscuring it, or the widget cannot receive pointer events.
+I/flutter ( 5879): Indeed, Offset(-5.1, 416.8) is outside the bounds of the root of the render tree, Size(411.4, 890.3).
+I/flutter ( 5879): The finder corresponds to this RenderBox: RenderParagraph#be452 relayoutBoundary=up17
+I/flutter ( 5879): The hit test result at that offset is: HitTestResult(HitTestEntry<HitTestTarget>#d3fe1(_ReusableRenderView#839fc), HitTestEntry<HitTestTarget>#e09c7(<IntegrationTestWidgetsFlutterBinding>))
+I/flutter ( 5879): #0      WidgetController._getElementPoint (package:flutter_test/src/controller.dart:2165:25)
+I/flutter ( 5879): #1      WidgetController.getCenter (package:flutter_test/src/controller.dart:1947:12)
+I/flutter ( 5879): #2      WidgetController.tap (package:flutter_test/src/controller.dart:1080:7)
+I/flutter ( 5879): #3      main.<anonymous closure>.tapText (file:///home/runner/work/winter-chess/winter-chess/integration_test/app_test.dart:43:20)
+I/flutter ( 5879): #4      main.<anonymous closure> (file:///home/runner/work/winter-chess/winter-chess/integration_test/app_test.dart:118:13)
+I/flutter ( 5879): <asynchronous suspension>
+I/flutter ( 5879): #5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+I/flutter ( 5879): <asynchronous suspension>
+I/flutter ( 5879): #6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1953:5)
+I/flutter ( 5879): <asynchronous suspension>
+I/flutter ( 5879): #7      TestWidgetsFlutterBinding._createTestCompletionHandler.<anonymous closure> (package:flutter_test/src/binding.dart:1707:12)
+I/flutter ( 5879): <asynchronous suspension>
+I/flutter ( 5879): To silence this warning, pass "warnIfMissed: false" to "tap()".
+I/flutter ( 5879): To make this warning fatal, set WidgetController.hitTestWarningShouldBeFatal to true.
+I/flutter ( 5879): 
+D/EGL_emulation( 5879): app_time_stats: avg=266.25ms min=14.99ms max=965.01ms count=4
+D/EGL_emulation( 5879): app_time_stats: avg=1516.24ms min=1516.24ms max=1516.24ms count=1
+D/EGL_emulation( 5879): app_time_stats: avg=3797.70ms min=3797.70ms max=3797.70ms count=1
+D/EGL_emulation( 5879): app_time_stats: avg=1217.85ms min=1217.85ms max=1217.85ms count=1
+W/WindowOnBackDispatcher( 5879): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 5879): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 5879): app_time_stats: avg=253.16ms min=32.80ms max=847.04ms count=4
+D/EGL_emulation( 5879): app_time_stats: avg=253.85ms min=14.79ms max=949.72ms count=4
+D/EGL_emulation( 5879): app_time_stats: avg=256.52ms min=21.01ms max=874.25ms count=4
+D/EGL_emulation( 5879): app_time_stats: avg=321.70ms min=26.84ms max=2042.52ms count=9
+D/EGL_emulation( 5879): app_time_stats: avg=1550.11ms min=1550.11ms max=1550.11ms count=1
+D/EGL_emulation( 5879): app_time_stats: avg=8716.44ms min=8716.44ms max=8716.44ms count=1
+I/flutter ( 5879): ERRORS: 1
+I/flutter ( 5879): no text: Ладья, слон, ферзь
+I/flutter ( 5879): 01:44 +1: (tearDownAll)
+I/flutter ( 5879): 01:44 +2: All tests passed!
+All tests passed.
+Leaving the application running.
