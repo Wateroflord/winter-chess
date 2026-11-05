@@ -12,6 +12,13 @@ jobs:
     timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
+      - name: Shared CI tools (winter-hub/ci)
+        uses: actions/checkout@v4
+        with:
+          repository: Wateroflord/winter-hub
+          path: .winter
+          sparse-checkout: /ci/
+          sparse-checkout-cone-mode: false
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
@@ -23,7 +30,7 @@ jobs:
       - name: Create Android project files
         run: |
           flutter create --project-name winter_chess --org com.winterhub --platforms android .
-          rm -rf test
+          rm -f test/widget_test.dart
           python3 tools/patch_android.py > /dev/null
           flutter pub get
       - name: Enable KVM
@@ -56,4 +63,4 @@ jobs:
           git rm -rf --cached . > /dev/null
           git add -f screenshots
           git commit -m "screenshots" > /dev/null
-          git push -f origin screens-out > push.txt 2>&1 || { echo "error: push failed"; cat push.txt; python3 tools/annotate.py push.txt build; exit 1; }
+          git push -f origin screens-out > push.txt 2>&1 || { echo "error: push failed"; cat push.txt; python3 .winter/ci/annotate.py push.txt build; exit 1; }
