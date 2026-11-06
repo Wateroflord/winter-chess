@@ -13,7 +13,7 @@ import 'lessons.dart';
 import 'ui.dart';
 import 'package:winter_core/winter_core.dart';
 
-void main() => runWinterApp(repo: 'winter-chess', appName: 'Шахматы', body: _main);
+Future<void> main() => runWinterApp(repo: 'winter-chess', appName: 'Шахматы', body: _main);
 
 void _main() {
   WidgetsFlutterBinding.ensureInitialized();
