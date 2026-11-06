@@ -11,10 +11,13 @@ import 'board.dart';
 import 'engine.dart';
 import 'lessons.dart';
 import 'ui.dart';
+import 'package:winter_core/winter_core.dart';
 
-void main() {
+void main() => runWinterApp(repo: 'winter-chess', appName: 'Шахматы', body: _main);
+
+void _main() {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(const ChessApp());
+  runApp(WinterCrashBanner(child: const ChessApp()));
 }
 
 const startFen = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1';
